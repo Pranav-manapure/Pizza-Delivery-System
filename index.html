@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Delivery</title>
+    <style>
+        /* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,p, ul, li{
+    color: #f00;
+}
+/* Style the header and navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the banner */
+#banner {
+    background-image: url('pizza-banner.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: px 0;
+}
+
+.banner-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.banner-text p {
+    font-size: 18px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #f00;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Style the menu items */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu-item {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.menu-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+.menu-item {
+    flex: 1;
+    width: calc(33.33% - 20px); /* Adjust the width as needed */
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.price {
+    font-size: 20px;
+    color: #f00;
+}
+
+.add-to-cart {
+    background-color: #f00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Style the order form */
+.order-form {
+    text-align: center;
+}
+
+.order-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.order-form select, .order-form input[type="number"] {
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.submit-order {
+    background-color: #f00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Style the about and contact sections */
+#about, #contact {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Pizza Delight</div>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order">Order Online</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="banner">
+        <div class="banner-text">
+            <h1>Delicious Pizza Delivered to Your Door</h1>
+            <p>Order now and enjoy the best pizza in town!</p>
+            <a href="#order" class="cta-button">Order Now</a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <!-- Add your pizza menu items here -->
+        <div class="menu-item">
+            <img src="1Pizza-margherita.jpg" alt="Pizza 1">
+            <h3>Pizza Margherita</h3>
+            <p>Fresh tomatoes, mozzarella, basil</p>
+            <span class="price">$12.99</span>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="2Pizza.jpg" alt="Pizza 2">
+            <h3>Pepperoni Pizza</h3>
+            <p>Pepperoni, mozzarella, tomato sauce</p>
+            <span class="price">$14.99</span>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        
+        <div class="menu-item">
+            <img src="3pizza.jpg" alt="Pizza 3">
+            <h3>Hawaiian Pizza</h3>
+            <p>Ham, pineapple, mozzarella, tomato sauce</p>
+            <span class="price">$15.99</span>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        You can continue this pattern to add as many pizza menu items as you like. Just make sure to provide the appropriate image URLs, pizza names, descriptions, and prices for each item.
+        
+        Remember to update the CSS styles if needed to ensure the new menu items are displayed correctly and styled according to your design preferences.
+        
+        
+        
+        
+        
+        
+        <!-- Repeat the above structure for more menu items -->
+
+    </section>
+
+    <section id="order">
+        <h2>Order Online</h2>
+        <div class="order-form">
+            <form>
+                <label for="pizza-type">Pizza Type:</label>
+                <select id="pizza-type" name="pizza-type">
+                    <!-- Add pizza options dynamically from your menu -->
+                    <option value="margherita">Pizza Margherita</option>
+                    <!-- Add more options here -->
+                </select>
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+
+                <button type="submit" class="submit-order">Submit Order</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are passionate about serving the finest pizza in town. Learn more about our story and commitment to quality.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or feedback, feel free to reach out to us.</p>
+        <!-- Add a contact form or contact information here -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Pizza Delight</p>
+    </footer>
+</body>
+</html>
