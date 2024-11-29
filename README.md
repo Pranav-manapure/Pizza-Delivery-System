@@ -64,15 +64,14 @@ Or you can double-click the index.html file to open it in your default browser.
 
 ---
 
-# 🤝 Contributions
-  Contributions are welcome! If you'd like to contribute to the project, please feel free to fork the repository and submit a pull request.
 
 ## Contributors
-- 📧 Email: manapurepranav03@gmail.com
-- 🔗 LinkedIn: Pranav Manapure
-- 🌐 GitHub: github.com/Pranav-manapure
-
+- **Email:** [manapurepranav03@gmail.com](mailto:manapurepranav03@gmail.com)
+- **Linkdin:** www.linkedin.com/in/pranav-manapure
+  
 ---
 
+## License
+This project is licensed under the MIT License.
 
 
